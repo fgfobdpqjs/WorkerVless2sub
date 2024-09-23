@@ -150,7 +150,7 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)，**感谢[Alice Networ
    - **type**（可选）：您的 Trojan 的传输协议（留空则默认为`ws`），例如 `splithttp`。
    - 自定义订阅地址如下：
      ```url
-     https://sub.fgfobdpqjs.workers.dev/sub?host=hbpb.us.kg&pw=bpb-trojan&path=/tr?ed=2560
+     https://sub.fgfobdpqjs.workers.dev/sub?host=fgfo.com.mp&pw=bpb-trojan&path=/tr?ed=2560
      ```
    - 注意路径必须包含 "/sub"。
 
@@ -159,13 +159,13 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)，**感谢[Alice Networ
    - 添加 `format=clash` 键值，获取 clash 订阅配置，例如：
      ```url
      https://sub.fgfobdpqjs.workers.dev/auto?format=clash
-     https://sub.fgfobdpqjs.workers.dev/sub?format=clash&host=edgetunnel-2z2.pages.dev&uuid=30e9c5c8-ed28-4cd9-b008-dc67277f8b02&path=/?ed=2048
+     https://sub.fgfobdpqjs.workers.dev/sub?format=clash&host=fgfobdpqjs&uuid=30e9c5c8-ed28-4cd9-b008-dc67277f8b02&path=/?ed=2048
      ```
      
    - 添加 `format=singbox` 键值，获取 singbox 订阅配置，例如：
      ```url
      https://sub.fgfobdpqjs.workers.dev/auto?format=singbox
-     https://sub.fgfobdpqjs.workers.dev/sub?format=singbox&host=edgetunnel-2z2.pages.dev&uuid=30e9c5c8-ed28-4cd9-b008-dc67277f8b02&path=/?ed=2048
+     https://sub.fgfobdpqjs.workers.dev/sub?format=singbox&host=fgfobdpqjs&uuid=30e9c5c8-ed28-4cd9-b008-dc67277f8b02&path=/?ed=2048
      ```
      
 ## 变量说明
