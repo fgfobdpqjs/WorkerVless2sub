@@ -11,8 +11,8 @@ let addresses = [
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
-	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
+	'https://raw.githubusercontent.com/fgfobdpqjs/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	//'https://raw.githubusercontent.com/fgfobdpqjs/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
 ];
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
@@ -24,12 +24,12 @@ let addressesnotls = [
 
 // 设置优选noTLS地址api接口
 let addressesnotlsapi = [
-	'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	'https://raw.githubusercontent.com/fgfobdpqjs/CFcdnVmess2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
 ];
 
 let DLS = 8;//速度下限
 let addressescsv = [
-	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressescsv.csv', //iptest测速结果文件。
+	//'https://raw.githubusercontent.com/fgfobdpqjs/WorkerVless2sub/main/addressescsv.csv', //iptest测速结果文件。
 ];
 
 let subconverter = "SUBAPI.fxxk.dedyn.io"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
@@ -45,7 +45,7 @@ let proxyIPs = [//无法匹配到节点名就随机分配以下ProxyIP域名
 let CMproxyIPs = [
 	//'proxyip.aliyun.fxxk.dedyn.io:HK',//匹配节点名, 有HK就分配该ProxyIP域名
 ]
-let socks5DataURL = '';//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/socks5Data'
+let socks5DataURL = '';//'https://raw.githubusercontent.com/fgfobdpqjs/WorkerVless2sub/main/socks5Data'
 let BotToken ='';
 let ChatID =''; 
 let proxyhosts = [//本地代理域名池
@@ -108,7 +108,7 @@ async function getAddressesapi(api) {
 			method: 'get', 
 			headers: {
 				'Accept': 'text/html,application/xhtml+xml,application/xml;',
-				'User-Agent': 'cmliu/WorkerVless2sub'
+				'User-Agent': 'fgfobdpqjs/WorkerVless2sub'
 			},
 			signal: controller.signal // 将AbortController的信号量添加到fetch请求中，以便于需要时可以取消请求
 		}).then(response => response.ok ? response.text() : Promise.reject())));
@@ -402,7 +402,7 @@ export default {
 			
 			
 				
-				https://github.com/cmliu/WorkerVless2sub
+				https://github.com/fgfobdpqjs/WorkerVless2sub
 				`;
 			
 				return new Response(responseText, {
