@@ -159,13 +159,13 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)，**感谢[Alice Networ
    - 添加 `format=clash` 键值，获取 clash 订阅配置，例如：
      ```url
      https://sub.fgfobdpqjs.workers.dev/auto?format=clash
-     https://sub.fgfobdpqjs.workers.dev/sub?format=clash&host=fgfobdpqjs&uuid=30e9c5c8-ed28-4cd9-b008-dc67277f8b02&path=/?ed=2048
+     https://sub.fgfobdpqjs.workers.dev/sub?format=clash&host=fgfo.com.mp&uuid=30e9c5c8-ed28-4cd9-b008-dc67277f8b02&path=/?ed=2048
      ```
      
    - 添加 `format=singbox` 键值，获取 singbox 订阅配置，例如：
      ```url
      https://sub.fgfobdpqjs.workers.dev/auto?format=singbox
-     https://sub.fgfobdpqjs.workers.dev/sub?format=singbox&host=fgfobdpqjs&uuid=30e9c5c8-ed28-4cd9-b008-dc67277f8b02&path=/?ed=2048
+     https://sub.fgfobdpqjs.workers.dev/sub?format=singbox&host=fgfo.com.mp&uuid=30e9c5c8-ed28-4cd9-b008-dc67277f8b02&path=/?ed=2048
      ```
      
 ## 变量说明
